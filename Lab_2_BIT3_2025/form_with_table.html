@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- Academic information Section -->
+        <table>
+          <tr>
+            <td>
+              Degree
+              <select>
+                <option value="">Masters In Business Administration</option>
+                <option value="">Masters In Information Technology</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Student ID <input type="text" /></td>
+          </tr>
+          <tr>
+            <td>
+              Classes attended
+              <select multiple>
+                <option value="">Geography</option>
+                <option value="">Mathematics</option>
+                <option value="">English</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>First Name <input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Last Name <input type="text" /></td>
+          </tr>
+          <tr>
+            <td>
+              Gender
+              <input type="radio" name="gender" /> Male
+              <input type="radio" name="gender" /> Female
+            </td>
+          </tr>
+          <tr>
+            <td>Email <input type="email" /></td>
+          </tr>
+        </table>
+
+      <br />
+
+      <textarea
+        cols="50"
+        rows="8"
+        placeholder="TERMS AND CONDITIONS..."
+      ></textarea>
+
+      <br />
+      <br />
+
+      <input type="submit" value="Send Form" />
+      <input type="reset" value="Clear Form" />
+    </form>
+  </body>
+</html>
